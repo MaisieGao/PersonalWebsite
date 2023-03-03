@@ -1,0 +1,57 @@
+
+.linkedin{
+    display: flex;
+    justify-content: center;
+}
+.linkedin_word p{
+    display: inline-block;
+    margin-left: -42px;
+}
+.linkedin_word img{
+    border-radius: 5px;
+    width: 20px;
+}
+.linkedin a:hover{
+    color: orange;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.contents{
+    font-size: 20px;
+    margin: 0 30px; 
+}
+.contents .photo_words{
+    height: 300px;
+    margin: 15px auto;
+}
+.contents .photo_words .photo{
+    float: left;  
+}
+.contents .photo_words .photo img{
+    border-radius: 15px;
+    height: 130px; 
+}
+.contents .photo_words .words{
+    float: left;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.contents .words td{
+    height: 40px;
+}
+@media screen and (max-width: 510px) {
+    .container .photo{ 
+        margin-left: 50px;
+    }
+    .words table{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .contents .photo_words .photo{
+        margin-top: 5px; 
+    }
+}
+

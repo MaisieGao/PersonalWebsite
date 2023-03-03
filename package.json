@@ -1,0 +1,11 @@
+{
+  "name": "html",
+  "description": "personal web site",
+  "main": "index.js",
+  "scripts": {
+    "start":"http-server"
+  },
+  "dependencies": {
+    "http-server":"*"
+  }
+}

@@ -1,0 +1,16 @@
+
+.contents{
+    font-size: 20px;
+    margin: 0 30px;
+}
+.words_photos div{
+    display: inline-block;
+}
+.contents .photo{
+    float: right;
+    width:180px;
+    height:250px;
+    margin: 10px;
+}
+
+

@@ -1,0 +1,37 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+body{
+    background: rgba(0, 0, 0, 0.3) url("../images/back2.jpg") no-repeat fixed;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+hr{
+    border-top: 2px dotted;
+    color: black;
+}
+.blank{
+    height: 80px;
+}
+.contents h2{
+    text-align: center;
+}
+.contents p{
+    text-indent: 2em;
+}
+.contents hr{
+    border-top: 2px dotted;
+    color: black;
+}
+@media screen and (max-width: 450px) {
+    .blank{
+        height: 230px;
+    }
+}
